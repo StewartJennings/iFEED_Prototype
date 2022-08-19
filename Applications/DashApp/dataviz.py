@@ -5,9 +5,8 @@ import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 from Applications.DashApp.axisdicts import countrydict, cropdict, fielddict, quaddict, rcpdict, unitdict
 
-DATA_PATH = "/var/www/production/data"
-#DATA_PATH = "./data"
-
+DATA_PATH = "/var/www/production/Applications/static/data"
+#DATA_PATH = "./Applications/static/data"
 def get_cubedata(ccode, quad, crop, field):
 
     import os

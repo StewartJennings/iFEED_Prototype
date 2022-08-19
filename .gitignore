@@ -9,3 +9,4 @@ __pycache__/
 .venv/*
 Docs/*
 data
+Applications/static/data
